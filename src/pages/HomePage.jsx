@@ -4,6 +4,7 @@ import Banner from '../components/banner/Banner'
 import Ad from '../components/ad/Ad'
 import Result from '../components/result/Result'
 import Protects from '../components/protects/Protects'
+import Registration from '../components/registration/Registration'
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
         <Ad/>
         <Result/>
         <Protects/>
+        <Registration/>
     </>
   )
 }

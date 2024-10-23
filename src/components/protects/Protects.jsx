@@ -1,6 +1,9 @@
 import React from 'react'
 import './Protects.css'
 import { MdOutlineShield } from 'react-icons/md'
+import { FaArrowRightLong } from "react-icons/fa6";
+import { GoPeople } from "react-icons/go";
+import { Link } from 'react-router-dom'
 
 function Protects() {
   return (
@@ -24,6 +27,34 @@ function Protects() {
                                 <p>Velit ut consectetur mauris, orci amet, faucibus. Sit turpis fringilla ipsum pretium,
                                     dictum. Dolor eget vel nulla lorem ac.
                                 </p>
+                            </div>
+                            <div className="more_button">
+                                <Link to='#'>Read More</Link>
+                                <FaArrowRightLong />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="pro_icon">
+                            <GoPeople className='icon'/>
+                            </div>
+                            <div className="card_text">
+                                <h2>Minimize the spread of the Virus</h2>                                
+                            </div>
+                            <div className="more_button">
+                                <Link to='#'>Read More</Link>
+                                <FaArrowRightLong />
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="pro_icon">
+                            <GoPeople className='icon'/>
+                            </div>
+                            <div className="card_text">
+                                <h2>Protect yourself</h2>                                
+                            </div>
+                            <div className="more_button">
+                                <Link to='#'>Read More</Link>
+                                <FaArrowRightLong />
                             </div>
                         </div>
                     </div>
